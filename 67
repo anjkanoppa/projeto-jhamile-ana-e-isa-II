@@ -1,0 +1,180 @@
+<!DOCTYPE html> <!--doctype html diz pro navegador que o html5 ta sendo usado-->
+<html lang="pt-BR"> <!--declarando que a linguagem do site é portugues-->
+<head>
+<meta charset="UTF-8"> <!--permitindo o uso de caracteres como o 'ç'-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--permitindo que o site seja usado no celular-->
+<title>Trabalho CEP</title>
+
+<style> /*começando a usar css para deixar bonito*/
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*fonte*/
+background-color: #FFFFFF;
+color: #183C63;
+margin: 0;
+padding: 16px;
+}
+
+.container { /*caixa principal*/
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+background-color: #FFFFFF;
+color: #183C63;
+text-align: center;
+padding: 16px;
+border: 1px solid #183C63;
+}
+
+h1 { /*titulo principal*/
+background-color: #183C63;
+color: #FFFFFF;
+text-align: center;
+padding: 16px;
+margin: 0;
+}
+
+h2 { /*subtitulos*/
+color: #183C63;
+margin-top: 30px;
+font-size: 22px;
+}
+
+p {
+line-height: 1.6;
+margin-bottom: 16px;
+}
+
+ul {
+display: inline-block;
+text-align: left;
+padding-left: 20px;
+line-height: 1.8;
+}
+
+.link-externo { /*transformando texto comum em links selecionaveis*/
+display: inline-block;
+margin-top: 15px;
+margin-bottom: 25px;
+padding: 10px 20px;
+background-color: #183C63;
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+}
+
+.link-externo:hover {
+background-color: #2b5b8d;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container"> <!--tudo fica dentro desse container-->
+
+<h1>Ana, Jhamile e Isabela</h1>
+
+<p>
+Vamos compartilhar informações e dicas sobre autocuidado para promover
+uma vida mais saudável e equilibrada.
+</p>
+
+<!-- autocuidado emocional -->
+
+<h2>Autocuidado Emocional</h2>
+
+<p>
+O autocuidado emocional é cuidar dos sentimentos e aprender a lidar com eles
+de forma saudável. Reservar momentos para relaxar, expressar emoções e
+praticar a gentileza consigo mesmo ajuda a reduzir o estresse e melhorar o
+bem-estar.
+</p>
+
+<ul>
+<li>Escrever um diário de como está se sentindo.</li>
+<li>Reserve alguns minutos para relaxar.</li>
+<li>Converse com alguém de confiança.</li>
+<li>Pratique a gratidão.</li>
+</ul>
+
+<br>
+
+<a href="https://google.com" target="_blank" class="link-externo">
+Espaço para link
+</a>
+
+<!-- autocuidado pessoal -->
+
+<h2>Autocuidado Pessoal</h2>
+
+<p>
+O autocuidado pessoal envolve conhecer a si mesmo, fortalecer a autoestima
+e investir em atividades que trazem felicidade. Desenvolver hobbies e
+reconhecer seus valores ajuda no crescimento pessoal.
+</p>
+
+<ul>
+<li>Descubra novos hobbies.</li>
+<li>Defina metas pessoais.</li>
+<li>Valorize suas conquistas.</li>
+<li>Faça algo que você gosta.</li>
+</ul>
+
+<br>
+
+<a href="https://google.com" target="_blank" class="link-externo">
+Espaço para link
+</a>
+
+<!-- autocuidado fisico -->
+
+<h2>Autocuidado Físico</h2>
+
+<p>
+Cuidar do corpo é essencial para manter a saúde e a disposição. Dormir bem,
+praticar exercícios, manter uma alimentação equilibrada e beber bastante água
+contribuem para uma vida mais saudável.
+</p>
+
+<ul>
+<li>Beba água regularmente.</li>
+<li>Durma pelo menos 8 horas por noite.</li>
+<li>Pratique atividades físicas.</li>
+<li>Faça alongamentos.</li>
+</ul>
+
+<br>
+
+<a href="https://google.com" target="_blank" class="link-externo">
+Espaço para link
+</a>
+
+<!-- autocuidado espiritual -->
+
+<h2>Autocuidado Espiritual</h2>
+
+<p>
+O autocuidado espiritual está relacionado à busca de propósito e equilíbrio
+interior. Isso pode acontecer por meio da meditação, da reflexão, da conexão
+com a natureza ou de práticas ligadas à fé.
+</p>
+
+<ul>
+<li>Medite alguns minutos por dia.</li>
+<li>Passe mais tempo em contato com a natureza.</li>
+<li>Reflita sobre seus objetivos.</li>
+<li>Pratique a gratidão.</li>
+</ul>
+
+<br>
+
+<a href="https://google.com" target="_blank" class="link-externo">
+Espaço para link
+</a>
+
+</div>
+
+</body>
+</html>
