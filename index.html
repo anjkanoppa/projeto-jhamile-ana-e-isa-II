@@ -40,7 +40,7 @@
         <main>
             <img src="image.png" alt="Ilustração em estilo de linha com paleta de cores minimalista em tons de roxo escuro e rosa claro. No centro, uma jovem está sentada de pernas cruzadas sobre um tapete decorado, segurando uma caneca quente com as duas mãos e com os olhos fechados, transmitindo uma expressão de paz e autocuidado. Ao fundo, há um ambiente aconchegante com uma pequena mesa de cabeceira contendo um vaso de planta e uma vela acessa, uma janela com cortina e um caderno fechado no chão ao seu lado. O fundo da imagem é na cor roxo escuro (#4b0425) e os traços e preenchimentos são na cor rosa claro (#ffbcf9)." width="200">
             <article>
-                
+
                 <div>
                 <h2>autocuidado pessoal</h2>
                 <p>O autocuidado pessoal envolve conhecer a si mesmo, fortalecer a autoestima e investir em atividades que trazem felicidade. Desenvolver hobbies e reconhecer seus valores ajuda no crescimento pessoal.</p>
@@ -104,11 +104,19 @@
         const botoes = document.querySelectorAll("button");
 
         botoes.forEach( function (botao){
+            let = curtiu = false
             botao.addEventListener ("click", botaoClicado);
             function botaoClicado(){
                 console.log("fui clicado");
                 let texto = botao.querySelector("span");
-                texto.textContent++;
+                if (curtiu === false){
+                    texto.textContent++;
+                    curtiu = true; 
+
+                } else {
+                    texto.textContent --;
+                    curtiu = false
+                }
             }
 
         } )
